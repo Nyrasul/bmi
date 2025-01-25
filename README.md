@@ -6,5 +6,7 @@ This is a simple RESTful API to calculate Body Mass Index (BMI) using FastAPI.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd bmi_calculator
+   git clone https://github.com/Nyrasul/bmi.git   
+   uvicorn as1:app --reload
+   go
+   http://127.0.0.1:8000/docs#/default/calculate_bmi_calculate_bmi_post
